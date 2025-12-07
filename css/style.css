@@ -95,8 +95,12 @@ nav button {
 }
 
 #subnav {
+  display: flex;
   padding: 32px 72px 0;
   background-color: white;
+  justify-content: space-between;
+   
+  
 }
 
 #subnav button {
@@ -104,6 +108,7 @@ nav button {
   padding: 10px 16px;
   border: 1px solid black;
   background-color: white;
+ 
 }
 
 #trending p {
